@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
-
-int main()
-{
-    //std::string a;
-    int a;
-    std::cin >> a;
- 
-    std::cout << a;
+int main(){
+    
+    string test;
+    
+    getline(cin,test);
+    
+    cout << test << endl;
     return 0;
 }
