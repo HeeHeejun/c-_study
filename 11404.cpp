@@ -1,3 +1,6 @@
+//플로이도 워셜 알고리즘
+//n번째 노드를 거쳐서 가는 경로를 통해 거쳐갈 때의 경로와 기존 경로를 비교
+
 #include <iostream>
 #define INF 123456789
 using namespace std;
