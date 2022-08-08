@@ -1,3 +1,5 @@
+//행렬 멱법을 이용한 피보나치 수 계산 // 시간복잡도 : O(log n) 
+
 #include <iostream>
 #include <unordered_map>
 
@@ -13,6 +15,7 @@ unsigned long long fibonacci(unsigned long long n)
         auto it = tmp.find(k);
         auto it2 = tmp.find(k-1);
         unsigned long long a, b;
+        
         if(it == tmp.end())
         {
             a = fibonacci(k);
