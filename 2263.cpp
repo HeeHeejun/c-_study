@@ -1,6 +1,6 @@
 //(골2) 트리의 순회
 // inorder, postorder가 주어질 때, 트리의 preorder를 출력
-// 분할 정복
+// 분할 정복 , 벡터의 이터레이터 사용
 
 #include <iostream>
 #include <vector>
